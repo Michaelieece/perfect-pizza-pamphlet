@@ -11,10 +11,13 @@ body {
     border-radius: 2em;
     width: 20em;
     display: inline-block;
-    min-height: 30em;
+    /* min-height: 30em; */
     
 }
 
+.pizza img{
+    width: 20em;
+}
 .medium_pizza {
     background-color: chocolate;
 flex: 1
@@ -32,6 +35,8 @@ flex: 1
 
 .contact_us {
     background-color: crimson;
+    width: 90%;
+    height: 75px
 }
 .special{
     background-color: black;
