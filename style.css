@@ -1,7 +1,10 @@
 body {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.godubrovnik.com%2Fwp-content%2Fuploads%2Fpizza.jpg&f=1&nofb=1&ipt=b7e77a3747ab2f74a36cb6bdc6351aec12f1dde43fe0f37ea9fe61304fa9d095&ipo=images.google.com/imgres?imgurl=https%3A%2F%2Fimages.healthshots.com%2Fhealthshots%2Fen%2Fuploads%2F2023%2F02%2F09155200%2Fpizza-1.jpg&tbnid=RAXnnz-CW8nG0M&vet=12ahUKEwj43NiDotv-AhUQpicCHU5eBj4QMygiegUIARDEAg..i&imgrefurl=https%3A%2F%2Fwww.healthshots.com%2Fhow-to%2Fworld-pizza-day-a-healthy-millet-pizza-recipe-you-wont-regret-eating%2F&docid=_ocZhv5rZD98VM&w=1600&h=900&q=pizza%20images&ved=2ahUKEwj43NiDotv-AhUQpicCHU5eBj4QMygiegUIARDEAg");
     background-color: rgb(63, 110, 240);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.godubrovnik.com%2Fwp-content%2Fuploads%2Fpizza.jpg&f=1&nofb=1&ipt=b7e77a3747ab2f74a36cb6bdc6351aec12f1dde43fe0f37ea9fe61304fa9d095&ipo=images.google.com/imgres?imgurl=https%3A%2F%2Fimages.healthshots.com%2Fhealthshots%2Fen%2Fuploads%2F2023%2F02%2F09155200%2Fpizza-1.jpg&tbnid=RAXnnz-CW8nG0M&vet=12ahUKEwj43NiDotv-AhUQpicCHU5eBj4QMygiegUIARDEAg..i&imgrefurl=https%3A%2F%2Fwww.healthshots.com%2Fhow-to%2Fworld-pizza-day-a-healthy-millet-pizza-recipe-you-wont-regret-eating%2F&docid=_ocZhv5rZD98VM&w=1600&h=900&q=pizza%20images&ved=2ahUKEwj43NiDotv-AhUQpicCHU5eBj4QMygiegUIARDEAg");
+
 }
 .pizza {
     border: 1px solid chocolate;
@@ -35,8 +38,8 @@ flex: 1
 
 .contact_us {
     background-color: crimson;
-    width: 90%;
-    height: 75px
+    width: 100%;
+    height: 88px
 }
 .special{
     background-color: black;
@@ -58,3 +61,123 @@ flex: 1
     }
     
 }
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .number-input input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    }
+    
+    .number-input input[type=number]::-webkit-inner-spin-button,
+    .number-input input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    }
+    
+    .number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    }
+    
+    .number-input button:before,
+    .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+    }
+    
+    .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+    }
+    
+    .number-input input[type=number] {
+    text-align: center;
+    }
+    
+    .number-input.number-input {
+    border: 1px solid #ced4da;
+    width: 10rem;
+    border-radius: .25rem;
+    }
+    
+    .number-input.number-input button {
+    width: 2.6rem;
+    height: .7rem;
+    }
+    
+    .number-input.number-input button.minus {
+    padding-left: 10px;
+    }
+    
+    .number-input.number-input button:before,
+    .number-input.number-input button:after {
+    width: .7rem;
+    background-color: #495057;
+    }
+    
+    .number-input.number-input input[type=number] {
+    max-width: 4rem;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #495057;
+    }
+    
+    @media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color:transparent) {
+    
+    .number-input.def-number-input.safari_only button:before,
+    .number-input.def-number-input.safari_only button:after {
+    margin-top: -.3rem;
+    }
+    }
+    }
+    
+    .shopping-cart .def-number-input.number-input {
+    border: none;
+    }
+    
+    .shopping-cart .def-number-input.number-input input[type=number] {
+    max-width: 2rem;
+    border: none;
+    }
+    
+    .shopping-cart .def-number-input.number-input input[type=number].black-text,
+    .shopping-cart .def-number-input.number-input input.btn.btn-link[type=number],
+    .shopping-cart .def-number-input.number-input input.md-toast-close-button[type=number]:hover,
+    .shopping-cart .def-number-input.number-input input.md-toast-close-button[type=number]:focus {
+    color: #212529 !important;
+    }
+    
+    .shopping-cart .def-number-input.number-input button {
+    width: 1rem;
+    }
+    
+    .shopping-cart .def-number-input.number-input button:before,
+    .shopping-cart .def-number-input.number-input button:after {
+    width: .5rem;
+    }
+    
+    .shopping-cart .def-number-input.number-input button.minus:before,
+    .shopping-cart .def-number-input.number-input button.minus:after {
+    background-color: #9e9e9e;
+    }
+    
+    .shopping-cart .def-number-input.number-input button.plus:before,
+    .shopping-cart .def-number-input.number-input button.plus:after {
+    background-color: #4285f4;
+    }}
