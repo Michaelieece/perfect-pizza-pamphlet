@@ -23,12 +23,12 @@ main{
 }
 .medium_pizza {
     background-color: chocolate;
-flex: 1
+flex:1
 }
 
 .large_pizza {
     background-color: blue;
-    flex:2
+    flex:1
 }
 
 .small_pizza {
